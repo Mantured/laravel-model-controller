@@ -6,4 +6,5 @@
     <title>Laravel Movies  - @yield('title')</title>
 
     <!-- evvetnuali scriupt-->
+    <link rel="stylesheet" href="{{ asset('css/app.css')}}">
 </head>

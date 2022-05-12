@@ -9,10 +9,10 @@ class PageController extends Controller
 {
     public function index()
     {
-        $data =
-        [
-            "movie" => new Movie(),
-        ];
+        $movies = Movie::all();
+
+        $data = ["movies" => $movies];
+
         return view ('movies.index', $data);
     }
 }
