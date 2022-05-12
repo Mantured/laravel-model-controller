@@ -11243,6 +11243,13 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+header,
 footer {
   height: 10vh;
+}
+
+.card > *,
+.card ul li {
+  background-color: rgb(124, 8, 167);
+  color: orange;
 }

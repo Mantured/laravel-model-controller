@@ -4,7 +4,7 @@
     <body>
         @include('partials.header')
 
-        <main>
+        <main class="bg-dark pb-3">
             @yield('main-content')
         </main>
 

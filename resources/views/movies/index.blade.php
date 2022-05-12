@@ -7,9 +7,9 @@
 <section class="container">
     <div class="row row-cols-1 row-cols-md-2 g-4">
         @foreach ($movies as $movie)
-                <div class="col">
+                <div class="col ">
                     <div class="card">
-                        <img src="https://picsum.photos/200/200" class="card-img-top" alt="random picture">
+                        <img src="https://picsum.photos/200/200" class="card-img-top p-2" alt="random picture">
                         <div class="card-body">
                             <h5 class="card-title">Title: {{$movie->title}}</h5>
                             <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis assumenda, rerum quasi ab voluptas consequatur, iusto amet rem accusantium facere ducimus cum numquam maxime ex molestiae odio id, fuga exercitationem.</p>

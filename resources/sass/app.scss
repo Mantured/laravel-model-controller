@@ -2,6 +2,13 @@
 
 @import "~bootstrap/scss/bootstrap.scss";
 
+header,
 footer {
     height: 10vh;
+}
+
+.card > *,
+.card ul li {
+    background-color: rgb(124, 8, 167);
+    color: orange;
 }
